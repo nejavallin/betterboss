@@ -22,10 +22,6 @@
 		{
 			"Name": "AllToolsets",
 			"Enabled": true
-		},
-		{
-			"Name": "FlopAI",
-			"Enabled": true
 		}
 	]
 }
