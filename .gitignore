@@ -77,7 +77,6 @@ Config/DefaultEditor.ini
 /Content/Developers
 /Content/ExternalActors/Developers
 /Content/ExternalObjects/Developers
-/Plugins/FlopAI
 
 # Claude Code local config
 .claude/
