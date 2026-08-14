@@ -79,6 +79,5 @@ Config/DefaultEditor.ini
 /Content/ExternalObjects/Developers
 /Plugins/FlopAI
 
-# Claude Code / Unreal MCP local config
-.mcp.json
+# Claude Code local config
 .claude/
