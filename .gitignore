@@ -77,3 +77,6 @@ Config/DefaultEditor.ini
 /Content/Developers
 /Content/ExternalActors/Developers
 /Content/ExternalObjects/Developers
+
+# Flop AI plugin (local dev tool, installed per-machine, not game content)
+Plugins/FlopAI/
