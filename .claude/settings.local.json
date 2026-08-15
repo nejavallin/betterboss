@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__unreal-mcp__list_toolsets",
+      "mcp__unreal-mcp__describe_toolset",
+      "Bash(python3 -c ' *)",
+      "mcp__unreal-mcp__call_tool"
+    ]
+  }
+}
