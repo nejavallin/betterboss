@@ -78,5 +78,8 @@ Config/DefaultEditor.ini
 /Content/ExternalActors/Developers
 /Content/ExternalObjects/Developers
 
+# Claude Code local config
+.claude/
+
 # Flop AI plugin (local dev tool, installed per-machine, not game content)
 Plugins/FlopAI/
