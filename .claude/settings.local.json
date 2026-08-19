@@ -5,7 +5,11 @@
       "mcp__unreal-mcp__describe_toolset",
       "Bash(python3 -c ' *)",
       "mcp__unreal-mcp__call_tool",
-      "mcp__visualize__read_me"
+      "mcp__visualize__read_me",
+      "PowerShell($p = \"$env:USERPROFILE\\\\.claude.json\"; if \\(Test-Path $p\\) { $j = Get-Content $p -Raw | ConvertFrom-Json; Write-Output \"global mcpServers:\"; $j.mcpServers.PSObject.Properties.Name } ; $s = \"$env:USERPROFILE\\\\.claude\\\\settings.json\"; if \\(Test-Path $s\\) { Write-Output \"--- settings.json ---\"; Get-Content $s -Raw })",
+      "PowerShell(git ls-remote --heads origin 2>&1)",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"http://127.0.0.1:8001/mcp\" -Method GET -TimeoutSec 5 -UseBasicParsing; \"STATUS: $\\($r.StatusCode\\)\" } catch { \"ERROR: $\\($_.Exception.Message\\)\" })",
+      "PowerShell(git fetch origin --quiet)"
     ]
   }
 }
