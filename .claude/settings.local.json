@@ -4,7 +4,8 @@
       "mcp__unreal-mcp__list_toolsets",
       "mcp__unreal-mcp__describe_toolset",
       "Bash(python3 -c ' *)",
-      "mcp__unreal-mcp__call_tool"
+      "mcp__unreal-mcp__call_tool",
+      "mcp__visualize__read_me"
     ]
   }
 }
